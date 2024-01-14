@@ -1,5 +1,5 @@
-import { View, Text, Pressable, Modal } from "react-native";
-import { useContext, useCallback, memo } from "react";
+import { memo, useCallback, useContext } from "react";
+import { Modal, Pressable, Text, View } from "react-native";
 
 import ColorContext from "../../MainSection/ColorContext";
 import ColorPicker from "./ColorPicker";

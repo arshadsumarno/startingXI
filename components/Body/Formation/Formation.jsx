@@ -1,5 +1,5 @@
+import { useEffect, useState } from "react";
 import { Animated, Dimensions } from "react-native";
-import { useState, useEffect } from "react";
 
 import Player from "../Player/Player.jsx";
 import PlayerModal from "../Player/PlayerModal/PlayerModal.jsx";

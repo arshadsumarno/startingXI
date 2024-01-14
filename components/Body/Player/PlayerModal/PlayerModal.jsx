@@ -1,13 +1,13 @@
+import { memo, useContext, useState } from "react";
 import {
-  Modal,
-  View,
-  TouchableOpacity,
-  TextInput,
-  Text,
-  TouchableWithoutFeedback,
   Keyboard,
+  Modal,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  TouchableWithoutFeedback,
+  View,
 } from "react-native";
-import { useState, memo, useContext } from "react";
 
 import ColorContext from "../../../MainSection/ColorContext";
 import style from "./playerModal.style";

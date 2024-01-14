@@ -1,7 +1,7 @@
-import { View, Text, Image, TouchableOpacity } from "react-native";
+import { Image, Text, TouchableOpacity, View } from "react-native";
 
-import style from "./Header.style.js";
 import { useState } from "react";
+import style from "./Header.style.js";
 
 import SettingsModal from "./SettingsModal/SettingsModal.jsx";
 

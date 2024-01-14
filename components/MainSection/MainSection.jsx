@@ -1,16 +1,16 @@
-import {
-  View,
-  StyleSheet,
-  TouchableWithoutFeedback,
-  Keyboard,
-} from "react-native";
 import { useFonts } from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
-import { useState, useCallback, useMemo } from "react";
+import { useCallback, useMemo, useState } from "react";
+import {
+  Keyboard,
+  StyleSheet,
+  TouchableWithoutFeedback,
+  View,
+} from "react-native";
 
-import ColorContext from "./ColorContext";
-import Header from "../Header/Header";
 import Body from "../Body/Body";
+import Header from "../Header/Header";
+import ColorContext from "./ColorContext";
 
 SplashScreen.preventAutoHideAsync();
 

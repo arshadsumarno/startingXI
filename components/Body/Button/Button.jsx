@@ -1,5 +1,5 @@
-import { Text, TouchableOpacity } from "react-native";
 import { useCallback } from "react";
+import { Text, TouchableOpacity } from "react-native";
 
 import style from "./Button.style";
 

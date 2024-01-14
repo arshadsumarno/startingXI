@@ -1,4 +1,4 @@
-import { View, TextInput, ImageBackground } from "react-native";
+import { ImageBackground, TextInput, View } from "react-native";
 
 import { useState } from "react";
 

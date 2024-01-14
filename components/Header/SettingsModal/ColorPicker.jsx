@@ -1,5 +1,5 @@
-import { FlatList, TouchableOpacity, View, StyleSheet } from "react-native";
-import { useCallback, memo } from "react";
+import { memo, useCallback } from "react";
+import { FlatList, StyleSheet, TouchableOpacity, View } from "react-native";
 
 const ColorButton = memo(
   ({ item, onPress, color, backgroundColor, borderColor }) => {
