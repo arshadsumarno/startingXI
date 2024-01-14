@@ -1,16 +1,24 @@
 import { Text, TouchableOpacity } from "react-native";
+import { useCallback } from "react";
 
 import style from "./Button.style";
 
 const Button = ({ value, currentFormation, setCurrentFormation }) => {
-  const changeFormation = (newFormation) => {
-    setCurrentFormation(newFormation);
-  };
+  const changeFormation = useCallback(
+    (newFormation) => {
+      setCurrentFormation(newFormation);
+    },
+    [setCurrentFormation]
+  );
+
+  const onPressHandler = useCallback(() => {
+    changeFormation(value);
+  }, [value, changeFormation]);
 
   return (
     <TouchableOpacity
       style={style.button(value, currentFormation)}
-      onPress={() => changeFormation(value)}
+      onPress={onPressHandler}
     >
       <Text style={style.buttonText(value, currentFormation)}>{value}</Text>
     </TouchableOpacity>

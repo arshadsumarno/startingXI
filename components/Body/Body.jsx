@@ -6,7 +6,7 @@ import style from "./Body.style.js";
 import Button from "./Button/Button.jsx";
 import Formation from "./Formation/Formation.jsx";
 
-const Body = ({ color, borderColor }) => {
+const Body = () => {
   const [currentFormation, setCurrentFormation] = useState("4231");
   const [teamName, setTeamName] = useState("");
   const values = ["4231", "433", "442", "352", "343"];
@@ -22,6 +22,7 @@ const Body = ({ color, borderColor }) => {
             placeholder="My Team"
             placeholderTextColor={"#C2C2C2"}
             maxLength={20}
+            autoCorrect={false}
           />
         </View>
       </View>
@@ -33,8 +34,6 @@ const Body = ({ color, borderColor }) => {
           source={require("../../assets/pitch-test.png")}
         >
           <Formation
-            playerColor={color}
-            playerBorder={borderColor}
             currentFormation={currentFormation}
             setCurrentFormation={setCurrentFormation}
           />

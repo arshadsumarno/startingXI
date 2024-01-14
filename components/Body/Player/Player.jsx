@@ -1,11 +1,12 @@
 import { View, Text, Animated, Easing, TouchableOpacity } from "react-native";
+import { useEffect, useRef, useContext } from "react";
 
-import { useEffect, useRef } from "react";
-
+import ColorContext from "../../MainSection/ColorContext.js";
 import style from "./player.style.js";
 
-const Player = ({ id, color, border, name, number, xPos, yPos, onPress }) => {
+const Player = ({ id, name, number, xPos, yPos, onPress }) => {
   const moveAnim = useRef(new Animated.ValueXY({ x: xPos, y: yPos })).current;
+  const { color, border } = useContext(ColorContext);
 
   useEffect(() => {
     Animated.timing(moveAnim, {

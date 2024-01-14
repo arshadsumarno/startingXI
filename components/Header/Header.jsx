@@ -5,7 +5,7 @@ import { useState } from "react";
 
 import SettingsModal from "./SettingsModal/SettingsModal.jsx";
 
-const Header = ({ color, setColor, borderColor, setBorderColor }) => {
+const Header = () => {
   const [openSettings, setOpenSettings] = useState(false);
 
   return (
@@ -13,10 +13,6 @@ const Header = ({ color, setColor, borderColor, setBorderColor }) => {
       <SettingsModal
         openSettings={openSettings}
         setOpenSettings={setOpenSettings}
-        color={color}
-        setColor={setColor}
-        borderColor={borderColor}
-        setBorderColor={setBorderColor}
       />
 
       <View style={style.container}>

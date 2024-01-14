@@ -19,6 +19,12 @@ const style = StyleSheet.create({
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
   },
+  headerText: {
+    textAlign: "center",
+    color: "#F5F5F5",
+    fontSize: 40,
+    fontFamily: "League-Spartan",
+  },
   body: {
     flex: 3,
     backgroundColor: '#5EBD5C',

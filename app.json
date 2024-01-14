@@ -23,8 +23,13 @@
     "ios": {
       "supportsTablet": false
     },
+    "extra": {
+      "eas": {
+        "projectId": "a1b84f62-1479-44fe-843d-6cbb8eb82875"
+      }
+    },
     "android": {
-      "supportsTablet": false
+      "package": "com.arshadsumarno.startingXI"
     }
   }
 }

@@ -5,7 +5,7 @@ import Player from "../Player/Player.jsx";
 import PlayerModal from "../Player/PlayerModal/PlayerModal.jsx";
 import formations from "./FormationData.jsx";
 
-const Formation = ({ playerColor, playerBorder, currentFormation }) => {
+const Formation = ({ currentFormation }) => {
   const [players, setPlayers] = useState(formations[currentFormation]);
   const [modalVisible, setModalVisible] = useState(false);
   const [editingPlayer, setEditingPlayer] = useState(null);
@@ -70,8 +70,6 @@ const Formation = ({ playerColor, playerBorder, currentFormation }) => {
         <Player
           key={player.key}
           id={player.key}
-          color={playerColor}
-          border={playerBorder}
           name={player.name}
           number={player.number}
           xPos={player.xPos}
@@ -87,8 +85,6 @@ const Formation = ({ playerColor, playerBorder, currentFormation }) => {
           initialName={editingPlayer["name"]}
           initialNumber={editingPlayer["number"]}
           id={editingPlayer["key"]}
-          color={playerColor}
-          border={playerBorder}
         />
       )}
     </Animated.View>

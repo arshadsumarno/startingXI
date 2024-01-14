@@ -10,7 +10,7 @@ const style = StyleSheet.create({
   settingsContainer: {
     width: '95%',
     height: '60%',
-    marginBottom: '15%',
+    marginBottom: '25%',
   },
   header: {
     flex: 1,
