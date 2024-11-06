@@ -1,6 +1,6 @@
 # startingXI Mobile App (iOS/Android)
----
-![startingXI Image](https://github.com/user-attachments/assets/ea12a2dc-3e44-4e74-a1db-fa56cbb44562)
+
+![startingXI GitHub Image](https://github.com/user-attachments/assets/c1091c7d-1b49-4247-89c7-6673f3383e31)
 
 ## Overview
 StartingXI is a React Native application that enables soccer players, coaches, and enthusiasts, to create, customize, and visualize soccer formations with ease. I used Figma for UI/UX wireframing, ensuring a smooth, intuitive, and user-friendly interface. Designed for real-time customization and team coordination, StartingXI allows users to set up various formations and experiment with tactics visually. Originally developed for my soccer team, this app aims to make it easier to see and strategize different lineups, ensuring every player understands their role on the field.
@@ -13,8 +13,6 @@ StartingXI aims to solve several common challenges:
 - **Player Positioning Animations**: Easily visualize how players rotate between different formations through animation
 - **Flexible Customization**: Adjust formations and lineups on the fly, offering the flexibility that real-time discussions require.
 - **Collaboration**: Simplify communication among team members, helping everyone get a clear picture of their role and the team’s tactical approach.
-
----
 
 ## 🏗️ Setup and Installation
 
