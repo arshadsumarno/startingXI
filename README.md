@@ -16,6 +16,10 @@ StartingXI aims to solve several common challenges:
 - **Flexible Customization**: Adjust formations and lineups on the fly, offering the flexibility that real-time discussions require.
 - **Collaboration**: Simplify communication among team members, helping everyone get a clear picture of their role and the team’s tactical approach.
 
+## 📽️ Demo
+
+https://github.com/user-attachments/assets/33b74345-1856-48c9-aa23-3389e195de96
+
 ## 🏗️ Setup and Installation
 
 ### Option 1: Expo Go
